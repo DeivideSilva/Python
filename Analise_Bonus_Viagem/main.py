@@ -39,8 +39,8 @@ for mes in lista_meses:
         print(f'No mês {mes} alguém bateu a meta. Vendedor {vendedor}, Vendas: {vendas}')
         message = client.messages .create(
                      body=f'No mês {mes} alguém bateu a meta. Vendedor {vendedor}, Vendas: {vendas}',
-                     from_="+14087419461",
-                     to="+5511950881271")
+                     from_="",
+                     to="Phone number ")
         print(message.sid)
 
 
